@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homelab project</title>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+		crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Homelab project</a>
+		</div>
+	</nav>
+
+	<div class="container mt-2">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<h1>Homelab project</h1>
+				<p>
+					I have been hosting servers on a small scale for a long time now but it all changed in early 2019
+					when i got my first real piece of server hardware.<br><br>
+				</p>
+				<p>
+					I was looking for old server hardware on a site called blocket and i found a listing for an old hp
+					server with 12 cpu cores and 32gb of ddr2 ram for around 50$,
+					at this time i did not have much experience with real server hardware and it might not have been the
+					best server to buy due to how old it was but it was still a very valuable resource for me to use
+					while learing about servers.
+				</p>
+				<p>
+					After getting the server i started looking after a good operating system to use and since i wanted
+					to run a bunch of virtual machines i ended up using <a href="https://www.proxmox.com/en/">Proxmox
+						VE</a> for the servers operating system.<br>
+					After installing the operating system and getting getting familiar with proxmoox ve i set up my
+					first vm that ran an apache2 web server and a mysql database replacing my old hp workstation that i
+					used before getting this server,
+					later on i also set up a minecraft server for me and my friends to play on
+				</p>
+				<p>
+					Around the same time as i got my first real server i also found a reddit community called <a
+						href="https://www.reddit.com/r/homelab/">r/homelab</a> where people would post about their own
+					home server projects.
+				</p>
+				<h1>Curent state of the project</h1>
+				<p>As of 2022 i have added 6 more servers to the setup and the combined power of these servers are 400gb
+					of ram, 94 cpu cores and about 9tb of storage.<br><br>
+
+					The hardware im running (Hover to see hardware):
+				<ul>
+					<li title="24 port network switch">HP ProCurve Switch 1810G-24</li>
+					<li title="8 port network switch">HP ProCurve Switch 1810G-8</li>
+					<li title="24 port network switch">Zyxel GS1900-24</li>
+					<li title="24 cores, 32gb ram, 700gb storage">HP Proliant DL165 G7</li>
+					<li title="12 cores, 64gb ram, 75gb storage">HP Proliant DL385 G6 (No longer in use)</li>
+					<li title="24 cores, 64gb ram, 1.2tb storage">HP Proliant DL380e G8</li>
+					<li title="24 cores, 150gb ram, 2tb storage">HP Proliant DL360p G8</li>
+					<li title="24 cores, 120gb ram, 300gb storage">HP Proliant DL380p G8</li>
+					<li title="6 cores, 16gb ram, 5.2tb storage">Custom build intel 8700k system</li>
+					<li title="8 cores, 32gb ram, 500gb storage">Custom build amd 2700x system</li>
+				</ul>
+
+				The servers are running the following:
+				<ul>
+					<li>3 PfSense routers in virual machines providing internet to my home</li>
+					<li>Home Assistant server controlling my smart mode devices</li>
+					<li>Private Nextcloud server</li>
+					<li>Apache2 web server</li>
+					<li>Sonatype Nexus repo</li>
+					<li>MySQL Database</li>
+					<li>Pi-hole dns server</li>
+					<li>Private web crawler project</li>
+					<li>Several discord bots</li>
+					<li>Music bot for discord</li>
+					<li>Multiple NodeJS based multiplyer games i made</li>
+					<li>Hastebin server</li>
+					<li>ARK: Survival of the Fittest server with over 60 000 unique players</li>
+					<li>Minecraft minigame server network</li>
+					<li>Nextcloud server for minecraft cummunity staff members</li>
+					<li>Plex Media Server</li>
+					<li>Custom Philips HUE api</li>
+				</ul>
+				</p>
+
+			</div>
+			<div class="col-md-6 col-sm-12 mb-2">
+				<img src="./img/lab_2022.jpg" class="rounded w-100">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
